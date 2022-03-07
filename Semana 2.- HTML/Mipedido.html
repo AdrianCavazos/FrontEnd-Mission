@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="images/logo.jpg" alt=""></div>
+            <ul class="">
+                <li><a class="letra" href="Index.html">Pasteles</a></li>
+                <li><a class="letra" href="Adornos.html">Adornos</a></li>
+                <li><a class="letra" href="Mipedido.html">Mi Pedido</a></li>
+                <li><a class="letra" href="Admin.html" target="blank">Administración</a></li>
+                <li><a class="letra" href="Contacto.html">Contacto</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Pedido</h1><br><br>
+        <div>
+            <label for="name">Nombre del cliente: </label>
+            <input type="text" name="nombre">
+            <label for="telefono">&nbsp;&nbsp;Telefono: </label>
+            <input type="tel" name="telefono">
+        </div>
+        <br><br>
+        <div>
+            <label for="email">Correo electronico: </label>
+            <input type="email" name="email">
+        </div>
+        <br><br>
+        <div>
+            <label for="desc">Descripcion del pedido: </label>
+            <textarea name="desc" id="desc" style="width: 555px; height: 100px;"></textarea>
+        </div>
+        <br><br>
+        <div>
+            <h2>Sabores</h2>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="chocolate" id="chocolate">
+            <label for="chocolate">&nbsp;Chocolate</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="vainilla" id="vainilla">
+            <label for="vainilla">&nbsp;Vainilla</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="fresa" id="fresa">
+            <label for="fresa">&nbsp;Fresa</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="3 Leches" id="3 Leches">
+            <label for="3 Leches">&nbsp;3 Leches</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="cheesecake" id="cheesecake">
+            <label for="cheesecake">&nbsp;Cheesecake</label>
+        </div>
+        <br><br>
+        <div>
+            <h2>Adornos</h2>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="merfresa" id="merfresa">
+            <label for="merfresa">&nbsp;Mermelada de fresa</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="chantilly" id="chantilly">
+            <label for="chantilly">&nbsp;Chantilly</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="merpiña" id="merpiña">
+            <label for="merpiña">&nbsp;Mermelada de piña</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="merengue" id="merengue">
+            <label for="merengue">&nbsp;Merengue</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="nutella" id="nutella">
+            <label for="nutella">&nbsp;Nutella</label>
+            &nbsp;&nbsp;
+            <input type="checkbox" name="fondant" id="fondant">
+            <label for="fondant">&nbsp;Fondant</label>
+        </div>
+        <br><br>
+        <div>
+            <h2>Tamaño</h2>
+        </div>
+        <br>
+        <div>
+            <select name="tamaño" id="tamaño">
+                <option value="16">16 personas</option>
+                <option value="18">18 personas</option>
+                <option value="24">24 personas</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <input type="button" class="button"value="Hacer pedido">
+        </div>
+    </section>
+</body>
+</html>

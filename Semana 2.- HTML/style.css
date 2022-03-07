@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans';
+}
+
+
+header{
+    background-color: #FFD1DC;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.letra{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    margin-right: 150px;
+    list-style: none;
+}
+
+li{
+    font-size: 20px;
+    margin: 0 25px;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    padding: 0 150px;
+    line-height: 120px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section{
+    position: relative;
+    top: 150px;
+}
+
+h1{
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+
+.ch{
+    height: 200px;
+    width: 250px; 
+    margin: 0 80px;  
+}
+
+.va{
+    height: 200px;
+    width: 250px;
+    margin: 0 80px;
+}
+
+.fr{
+    height: 200px;
+    width: 320px;
+    margin: 0 80px;
+}
+
+.le{
+    height: 170px;
+    width: 270px;
+    margin: 0 80px;
+}
+
+.cheese{
+    height: 210px;
+    width: 270px;
+    margin: 0 80px;
+}
+
+.dir{
+    flex-direction: column;
+    text-align: center;
+}
+
+.merfresa{
+    height: 210px;
+    width: 300px;
+    margin: 0 30px;
+}
+
+.chantilly{
+    height: 210px;
+    width: 250px;
+    margin: 0 30px;
+}
+
+.merpiña{
+    height: 210px;
+    width: 300px;
+    margin: 0 30px;
+}
+
+.fondant{
+    height: 210px;
+    width: 300px;
+    margin: 0 30px; 
+}
+
+.merengue{
+    height: 210px;
+    width: 300px;
+    margin: 0 30px;
+}
+
+.nutella{
+    height: 210px;
+    width: 300px;
+    margin: 0 30px;
+}
+
+.button{
+    background-color: #FFD1DC;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.contacto{
+    margin-left: 150px;
+    font-size: 20px;
+}
