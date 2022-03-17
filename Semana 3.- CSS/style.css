@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    font-family: 'Semplicita', sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    height: 180px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin-right: 140px;
+    list-style: none;
+}
+
+li{
+    font-size: 25px;
+    margin: 0 35px;
+    line-height: 180px;
+    
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 180px;
+    line-height: 180px;
+    text-decoration: none;
+    color: rgb(33, 61, 216);
+}
+
+.button{
+    background-color: rgb(49, 79, 230);
+    color: #ffffff;
+    padding: 20px 37px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #2196F3;
+}
+
+.fondoAzul{
+    height: 1165px;
+    width: 925px;
+    background-color: #476DDA;
+    float: right;
+}
+
+.FightVirus{
+    height: 1165px;
+    width: 950px;
+    float: left;
+}
+
+.divFight{
+    padding: 150px 180px;
+}
+
+h1{
+    font-size: 85px;
+    color: #284487 ;
+}
+
+p{
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.enfermera{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 700px;
+    height: 1075px;
+}
+
+.check, .star, .clock, .wx, .x, .graf, .heart, .ccheck{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+ 
+.bp, .avoid{
+    font-size: 22px;
+}
+
+.ck{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.vacunas{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.whyvaccine{
+    padding: 50px 150px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px;
+    padding-left: 150px;
+     
+    flex-flow: row;
+    width: 300px;
+    height: 100px;
+     */
+}
+
+.min, .form, .protect, .creating{
+    height: 300px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 0 50px;
+    margin: 10px;
+}
+
+.minImg, .formImg, .proImg, .creatingImg{
+    height: 70px;
+    width: 70px;
+}
+
+.hmin, .hform, .hpro, .hcreating{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.pmin, .pform, .ppro, .pcreating{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.fondoAzul2{
+    margin-top: 500px;
+    height: 663px;
+    width: 850px;
+    background-color: #476DDA;
+    float: left;
+}
+
+.uno{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -190px;
+}
+.preparations{
+    height: 1165px;
+    width: 1000px;
+    float: right;
+}
+
+.divRight{
+    padding: 150px 30px;
+}
+
+.prep, .emer{
+    font-size: 55px;
+    color: #284487;
+}
+
+.padd{
+    padding: 0 40px;
+}
+
+.stress{
+    font-size: 18px;
+    padding: 0 70px;
+    line-height: 30px;
+}
+
+.size{
+    font-size: 24px;
+}
+
+.emergency{
+    height: 1165px;
+    width: 1000px;
+    float: left;
+}
+
+.divEmergency{
+    padding: 150px 150px;
+}
+
+.parr{
+    font-size: 22px;
+    
+}
+
+.fondoAzul3{
+    margin-top: 480px;
+    height: 663px;
+    width: 830px;
+    background-color: #476DDA;
+    float: right;
+}
+
+.doctor{
+    height: 850px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -190px;
+}
+
+footer{
+    background-color: #e0edff;
+    height: 500px;
+    width: 100%;
+    margin-top: 2500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vacc{
+    padding: 75px 180px;
+}
+
+.vac{
+    font-size: 40px;
+    color: rgb(33, 61, 216);
+}
+
+.pvac{
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.fl{
+    display: flex;   
+    margin-right: 110px; 
+}
+
+.support, .about, .company{
+    font-size: 25px;
+    margin: 0 60px;
+    margin-top: 75px;
+    
+}
+
+.ab{
+    font-size: 30px;
+    color: #284487;
+}
+
+.pabout{
+    font-size: 25px;
+    line-height: 60px;
+    color: #284487;
+}
+
+.terms{
+    padding: 550px 80px;
+}
+
+.abs{
+    height: 205px;
+    width: 1255px;
+    background-color: #ffffff;
+    display: flex;
+    
+}
+
+.butt{
+    background-color: rgb(49, 79, 230);
+    color: #ffffff;
+    padding: 20px 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: rgb(49, 79, 230);
+}
+
+.location, .date, .typec, .bt{
+    padding: 55px 45px;
+}
+
+.ubi, .dat, .type{
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+}
+
+.esp{
+    margin-left: 67px;
+    font-size: 26px;
+    
+}
+
+.fle{
+    display: flex;
+    padding: 0 150px;
+    width: 780px;
+    
+}
+
+.con{
+    height: 200px;
+    width: 310px;
+    border-radius: 10px;
+    padding: 45px 45px;
+    margin: 10px;
+    
+}
+
+.call, .chat, .videocall, .message{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mar{
+    display: block;
+    margin-top: -75px;
+    margin-left: 100px;
+    
+}
+
+.tam{
+    font-size: 20px;
+}
+
+.callnow{
+    background-color: rgb(212, 224, 243);
+    color: rgba(11, 76, 253, 0.787);
+    height: 80px;
+    width: 290px;
+    padding: 25px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+
+.chatnow{
+    background-color: rgb(49, 79, 230);
+    color: #ffffff;
+    height: 80px;
+    width: 290px;
+    padding: 25px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #2196F3;
+}
