@@ -1,0 +1,99 @@
+body{
+    background-color: #af3b3b;
+}
+header{
+    background-color: #ee6868;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 65px;
+}
+
+.trapecio{
+    position: fixed;
+    width: 40%;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 90px solid #db5454;
+}
+
+.circuloBlanco{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(56, 143, 224);
+    box-shadow: 0px 0px 0px 7px white;
+    margin: 28px 25px;
+}
+
+.cirRojo{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    left: 115px;
+    margin: 24px 0px;
+    border: 3px solid #555;
+}
+
+.cirAmarillo{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ffa500;
+    left: 155px;
+    margin: 24px 0px;
+    border: 3px solid #555; 
+}
+
+.cirVerde{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    left: 195px;
+    margin: 24px 0px;
+    border: 3px solid #555; 
+}
+
+.info{
+    height: 70%;
+    width: 55%;
+    position: absolute;
+    background-color: wheat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:  10px solid #504646;
+}
+
+.center{
+    margin: 10px 0px;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 45px;
+}
+
+.pokeImg{
+    width: 12rem;
+    height: 10rem;
+}
+
+.datos{
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    padding: 0px 50px;
+    
+}
